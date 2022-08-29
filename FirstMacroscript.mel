@@ -1,0 +1,25 @@
+//made the wheel
+polySphere -radius 1 -subdivisionsX 20 -subdivisionsY 20 -axis 0 1 0 -createUVs 2 -constructionHistory 1;
+move -relative 0 1.012881 0;
+
+//the body
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+move -r 0 3.383786 0 ;
+scale -r 2.925721 2.925721 2.925721 ;
+
+//the head
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+move -r 0 5.300893 0 ;
+scale -r 1.777778 1 1 ;
+
+//stage right arm
+polyCylinder -r 1 -h 2 -sx 20 -sy 1 -sz 1 -ax 0 1 0 -rcp 0 -cuv 3 -ch 1;
+scale -r 0.46516 0.46516 0.46516 ;
+scale -r 1 2.077778 1 ;
+move -r 0 3.602548 0 ;
+move -r 2.032867 0 0 ;
+rotate -r -os -fo 0 0 39.734101 ;
+
+//stage left arm
+polyMirrorFace  -cutMesh 1 -axis 0 -axisDirection 1 -mergeMode 1 -mergeThresholdType 0 -mergeThreshold 0.001 -mirrorAxis 2 -mirrorPosition 0 -smoothingAngle 30 -flipUVs 0 -ch 1 pCylinder1;
+// Result: polyMirror1
