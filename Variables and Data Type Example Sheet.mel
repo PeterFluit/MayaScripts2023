@@ -1,0 +1,24 @@
+//variable examples
+//these are just names
+$number
+$name
+$price
+
+//Data Type examples
+//integers are whole values
+int (integer): 1, 15, -12, 0
+
+//floats are decimal values
+float (float): 3.14, 4.0, -32.56
+
+//strings are texts
+string (text): "car", "Hello world"
+
+//bools are true(1) or false(0). bools actually arent in mel but will be in python
+bool (boolean): 1 or 0
+
+//arrays are containers of multiple values. but the values have to be the same data type
+array: [1, 253, -4], ["steve", "bob", "jane"]
+//you wont actually put 'array' for your variable. if it is an array you will use brackets
+//example
+float Sposition[];
