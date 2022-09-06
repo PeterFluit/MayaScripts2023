@@ -22,3 +22,18 @@ array: [1, 253, -4], ["steve", "bob", "jane"]
 //you wont actually put 'array' for your variable. if it is an array you will use brackets
 //example
 float Sposition[];
+
+
+//examples
+
+int $number;
+$number = 27;
+print ($number);
+
+string $name;
+$name = "david";
+print ($name);
+
+float $position[] = {-8.1, -2.7, 9.4, 16.7};
+//                     0     1     2    3
+print ($position[3]);
