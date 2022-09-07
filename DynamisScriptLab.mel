@@ -1,0 +1,20 @@
+float $size = 4;
+
+polySphere -r $size -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r -os -wd 0 $sizeBase 0 ;
+
+polySphere -r ($size + 2) -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r -os -wd 0 (($size * 2) + ($size -1)) 0 ;
+
+polySphere -r ($size -2) -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r -os -wd 0 (($size * 2) + (($size - 1) *2) + ($size - 2)) 0 ;
+
+polySphere -r ($size -2) -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r 0 16.405661 0 ;
+move -r 0 0 -6.35554 ;
+
+polyCylinder -r 1 -h 2 -sx 20 -sy 6 -sz 1 -ax 0 1 0 -rcp 0 -cuv 3 -ch 1
+move -r 0 0 -6.
+
+polyCylinder -r 1 -h 2 -sx 20 -sy 6 -sz 1 -ax 0 1 0 -rcp 0 -cuv 3 -ch 1
+move -r 0 0 6.
