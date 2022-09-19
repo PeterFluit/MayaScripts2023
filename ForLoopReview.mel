@@ -1,0 +1,23 @@
+//failed attempt at assignment below for mel
+int $num = 1
+for $num++
+print [$num++];
+
+//make a for loop that counts from 1 to 100 and prints value
+
+//start with for(
+//assignment1 - initial value
+//assignment2 - condition
+//statement3- increment
+
+for($i = 1; $i <= 100; $i++)
+{
+    print ($i + "\n");
+}
+//initial value feeds into condition and increment feeds into initial value
+
+//if you want to number it just by odd numbers
+for($i = 1; $i <= 100; $i+2)
+{
+    print ($i + "\n");
+}

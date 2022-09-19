@@ -57,3 +57,11 @@
 <= : Less than or equal to  3 <= 5
 
 >= : Greater than or equal to  3 >= 5
+
+--Logical--
+
+&& : And
+
+|| : Or
+
+! : Not

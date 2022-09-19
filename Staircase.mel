@@ -1,0 +1,12 @@
+$polyCube = polyCube -h 1 -w 10 -d 3;
+    select -r pCube1 ;
+    move -r -5 0 0 pCube1.scalePivot pCube1.rotatePivot ;
+    move -r 0 3 0 ;
+    rotate -r -os -fo 0 40 0 ;
+
+for($polyCube =0; $polyCube <15; $polyCube++)
+{
+   duplicate -smartTransform;
+}
+
+ 
