@@ -1,0 +1,43 @@
+print("Put 1 for Addition");
+print("Put 2 for Subtraction");
+print("Put 3 for Multiplication");
+print("Put 4 for Division");
+print("Put 5 for Power");
+print("Put 6 for Mean");
+print("Put 7 for Median");
+
+int $operation = input("Enter your choice : ");
+
+num1 = float(input(Enter a number));
+num2 = float(input(Enter another number));
+
+if($operation = 1)
+{
+    print(num1, "+", num2 "=", (num1 + num2));
+}
+else($operation =2)
+{
+    print(num1, "-", num2 "=", (num1 - num2));
+}
+else($operation = 3)
+{
+   print(num1, "*", num2 "=", (num1 * num2)); 
+}
+else($operation = 4)
+{
+    print(num1, "/", num2 "=", (num1 / num2));
+}
+else($operation = 5)
+{
+    print(num1, "^", num2 "=", (num1 ^ num2));
+}
+else($operation = 6)
+{
+    print("the mean is:", (num1 + num2) / 2);
+}
+else($operation = 7)
+{
+     print("the median is", (num1 + num2) / 2);
+}
+
+
