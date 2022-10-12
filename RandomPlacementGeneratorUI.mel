@@ -1,0 +1,15 @@
+//number of duplicates
+proc string Duplicates
+{
+for (int $i = 0; i < 5; i++)
+{
+    duplicate();
+}
+}
+
+//range of duplicates
+
+proc string range
+{
+    Vector3 Position = new Vector3(Random.Range(10, 0, 10);
+}
