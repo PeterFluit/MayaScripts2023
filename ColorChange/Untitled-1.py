@@ -1,3 +1,5 @@
+//3D Knowledge https://www.youtube.com/watch?v=X3Dt0fStYOw&ab_channel=3DKnowledge
+
 import maya.cmds as cmd
 cmd.select("ctrl", r=True)
 cmd.listRelatives("curveShape1", shapes=True)
